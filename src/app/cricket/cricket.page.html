@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>cricket</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div *ngIf="scannedData">
+    <p>
+      Scanned Code Text : <b>{{ scannedData["text"] }}</b> <!--Url of QR code displayed here.-->
+      <br>name :<b> {{name}}</b>
+      <br>Email : <b>{{Email}}</b>
+      <br>Game : <b>{{game}}</b>
+    </p>
+    
+  </div>
+</ion-content>
